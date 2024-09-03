@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EntityFramworkCore.Domain
 {
-    internal class Subject
+    public class Subject
     {
+        public int Id { get; set; }
+        public string SubjectName { get; set; }
     }
 }
